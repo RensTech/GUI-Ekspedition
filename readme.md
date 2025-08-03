@@ -54,28 +54,28 @@ Nama kota dicek dengan **searching** dan **sorting** sebelum dikirim. Berat bara
 🔹 Visualisasi sistem antrian dan riwayat pengiriman
 🔹 Dasar sistem backend untuk layanan logistik profesional
 
-🚀 Potensi Upgrade
-🌐 Peta graf interaktif antar kota
+   🚀 Potensi Upgrade
+   🌐 Peta graf interaktif antar kota
 
-🗃️ Integrasi database SQLite / MySQL
+   🗃️ Integrasi database SQLite / MySQL
 
-🧾 Fitur cetak nota & ekspor laporan ke Excel
+   🧾 Fitur cetak nota & ekspor laporan ke Excel
 
-📈 Statistik performa pengiriman
+   📈 Statistik performa pengiriman
 
-🔐 Login admin & validasi OTP
+   🔐 Login admin & validasi OTP
 
-💼 Teknologi yang Digunakan
-Bahasa: C++
+   💼 Teknologi yang Digunakan
+   Bahasa: C++
 
-GUI Engine: SFML 2.6.0
+   GUI Engine: SFML 2.6.0
 
-Compiler: GCC, Clang, MinGW
+   Compiler: GCC, Clang, MinGW
 
-OS Support: Windows, Linux, macOS
+   OS Support: Windows, Linux, macOS
 
-👨‍💻 Kontribusi
-Proyek ini cocok untuk mahasiswa teknik informatika, pengembang sistem logistik, atau siapa pun yang ingin belajar tentang struktur data terapan dalam GUI C++.
+   👨‍💻 Kontribusi
+   Proyek ini cocok untuk mahasiswa teknik informatika, pengembang sistem logistik, atau siapa pun yang ingin belajar tentang struktur data terapan dalam GUI C++.
 
-##📄 Lisensi
-Lisensi terbuka untuk edukasi dan pengembangan non-komersial. Jangan lupa beri ⭐ di repo ini jika kamu suka atau terbantu!
+## 📄 Lisensi
+   Lisensi terbuka untuk edukasi dan pengembangan non-komersial. Jangan lupa beri ⭐ di repo ini jika kamu suka atau terbantu!
