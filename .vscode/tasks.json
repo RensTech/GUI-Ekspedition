@@ -1,0 +1,21 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Build SFML App",
+      "type": "shell",
+      "command": "g++",
+      "args": [
+        "main.cpp",
+        "-IC:/SFML-2.6.1-mingw/include",
+        "-LC:/SFML-2.6.1-mingw/lib",
+        "-lsfml-graphics",
+        "-lsfml-window",
+        "-lsfml-system",
+        "-o", "app.exe"
+      ],
+      "group": "build",
+      "problemMatcher": []
+    }
+  ]
+}
