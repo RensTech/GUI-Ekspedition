@@ -46,4 +46,36 @@ Nama kota dicek dengan **searching** dan **sorting** sebelum dikirim. Berat bara
 
 2. **Kompilasi Program**:
    ```bash
-   g++ main.cpp -o transportasi -lsfml-graphics -lsfml-window -lsfml-system
+   g++ -g ekspedisi.cpp -o ekspedisi.exe -I"C:/SFML/SFML-2.6.1-mingw/include" -L"C:/SFML/SFML-2.6.1-mingw/lib" -lsfml-graphics-d -lsfml-window-d -lsfml-system-d -lsfml-audio-d -lsfml-network-d
+   ekspedisi.exe
+3. **🎯 Tujuan Aplikasi**
+🔹 Simulasi sistem logistik nasional
+🔹 Media pembelajaran struktur data dan algoritma
+🔹 Visualisasi sistem antrian dan riwayat pengiriman
+🔹 Dasar sistem backend untuk layanan logistik profesional
+
+🚀 Potensi Upgrade
+🌐 Peta graf interaktif antar kota
+
+🗃️ Integrasi database SQLite / MySQL
+
+🧾 Fitur cetak nota & ekspor laporan ke Excel
+
+📈 Statistik performa pengiriman
+
+🔐 Login admin & validasi OTP
+
+💼 Teknologi yang Digunakan
+Bahasa: C++
+
+GUI Engine: SFML 2.6.0
+
+Compiler: GCC, Clang, MinGW
+
+OS Support: Windows, Linux, macOS
+
+👨‍💻 Kontribusi
+Proyek ini cocok untuk mahasiswa teknik informatika, pengembang sistem logistik, atau siapa pun yang ingin belajar tentang struktur data terapan dalam GUI C++.
+
+##📄 Lisensi
+Lisensi terbuka untuk edukasi dan pengembangan non-komersial. Jangan lupa beri ⭐ di repo ini jika kamu suka atau terbantu!
