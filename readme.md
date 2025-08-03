@@ -1,49 +1,49 @@
-# 🚚 Sistem Informasi Transportasi Nasional - GUI SFML
+# 🚚 Sistem Informasi Transportasi & Pengiriman Nasional
 
-![GUI Preview](https://via.placeholder.com/800x500/2d3748/ffffff?text=Transportation+System+GUI) *(Preview gambar akan ditambahkan)*
+📦 **Aplikasi simulasi pengiriman barang antar kota di Indonesia** berbasis **GUI** menggunakan **C++ & SFML v2.6.0**. Sistem ini mensimulasikan alur pengiriman barang dari kota asal ke kota tujuan, dengan berbagai fitur interaktif, validasi data, dan perhitungan biaya otomatis berdasarkan algoritma graf.
 
-## 🌟 Fitur Utama
+---
 
-```diff
-+ 📦 Kalkulator biaya pengiriman otomatis
-+ 🗺️ Jaringan 10 kota besar di Indonesia
-+ 🚛 4 jenis kendaraan dengan kapasitas berbeda
-+ 📊 Riwayat transaksi dan antrian pengiriman
-+ 🛣️ Algoritma Dijkstra untuk rute terpendek
+## ✨ Fitur Unggulan
 
-🛠️ Teknologi
-<div align="center">
-Komponen	Teknologi
-GUI Framework	SFML 2.6.0
-Struktur Data	Vector, Map, Queue, Stack
-Algoritma	Dijkstra, Binary Search
-Bahasa	C++11
-</div>
+✅ **Form GUI Interaktif**  
+Masukkan data pengirim, barang, berat, kota asal-tujuan, dan pilih kendaraan dengan navigasi GUI yang nyaman.
 
-pie
-    title Sektor Penggunaan
-    "Logistik" : 45
-    "E-commerce" : 30
-    "Pemerintahan" : 15
-    "Pendidikan" : 10
+✅ **Perhitungan Otomatis**  
+Menggunakan algoritma **Dijkstra** untuk menghitung rute pengiriman terpendek dan menentukan biaya berdasar jarak & kapasitas kendaraan.
 
-    # Alasan spesifik versi 2.6.0:
-+ Stabil dan teruji
-+ Kompatibilitas lintas platform
-+ Dukungan OpenGL yang baik
-! Versi lebih baru mungkin ada breaking changes
-- Versi lama kurang fitur
+✅ **Validasi Data Real-time**  
+Nama kota dicek dengan **searching** dan **sorting** sebelum dikirim. Berat barang divalidasi sesuai batas maksimal kendaraan.
 
-/src
-│
-├── core/               # Logika utama
-│   ├── Graph.cpp       # Algoritma Dijkstra
-│   └── Calculator.cpp  # Hitung biaya
-│
-├── gui/                # Tampilan
-│   ├── MainWindow.cpp  # Window utama
-│   └── Components.cpp  # Button, Input
-│
-└── data/               # Data referensi
-    ├── Cities.json     # Daftar kota
-    └── Vehicles.json   # Spesifikasi kendaraan
+✅ **Pilihan Armada Logistik**:
+| Kendaraan | Kapasitas |
+|----------|-----------|
+| 🚗 APV        | 500 kg     |
+| 🚚 Pickup     | 1.000 kg   |
+| 🚛 Box        | 2.000 kg   |
+| 🏗️ Truck      | 5.000 kg   |
+
+✅ **Struktur Data & Algoritma**:
+- 🧱 **Stack**: Riwayat pengiriman  
+- ⏳ **Queue**: Daftar antrean pesanan  
+- 🧭 **Graph & Dijkstra**: Navigasi kota  
+- 🧠 **Pointer & Struct**: Representasi data dinamis  
+- 🔎 **Searching & Sorting**: Validasi & pencarian kota
+
+---
+
+## 🗺️ Kota yang Didukung
+
+`Jakarta`, `Bandung`, `Surabaya`, `Medan`, `Makassar`, `Semarang`, `Palembang`, `Tangerang`, `Depok`, `Bekasi`
+
+---
+
+## ⚙️ Cara Menjalankan
+
+1. **Instal SFML v2.6.0**
+   - 📥 [Unduh SFML](https://www.sfml-dev.org/download.php)
+   - Pastikan `lib`, `include`, dan `.dll` SFML telah disambungkan
+
+2. **Kompilasi Program**:
+   ```bash
+   g++ main.cpp -o transportasi -lsfml-graphics -lsfml-window -lsfml-system
